@@ -16,13 +16,8 @@ Tech Stack
 
 Program ini memiliki fitur enkripsi dan dekripsi algoritma berikut:
 
-- _Vigenere Cipher_
-- _Extended Vigenere Cipher_
-- _Playfair Cipher_
-- _One-Time Pad_
-- _Enigma Cipher_
-
-Program dapat menerima input baik text maupun file.
+- _Modified RC4 Stream Cipher_
+  Program dapat menerima input baik text maupun file.
 
 ## How to Run
 
@@ -31,7 +26,7 @@ Untuk menjalankan program ini dibutuhkan NodeJS atau Docker
 Pertama clone repo ini dengan cara
 
 ```bash
-git clone git@github.com:vaghansumadiredja/kriptografi-klasik.git
+git clone git@github.com:vaghansumadiredja/MyOwnStreamCipher.git
 ```
 
 ### NodeJS
@@ -44,14 +39,6 @@ atau
 
 ```bash
 npm run build && npm run start
-```
-
-kemudian kunjungi localhost:3000 pada browser anda
-
-### Docker
-
-```bash
-docker build -t <image_name> .
 ```
 
 kemudian kunjungi localhost:3000 pada browser anda
